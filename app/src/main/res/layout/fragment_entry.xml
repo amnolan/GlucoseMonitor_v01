@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:stretchColumns="*">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+         >
+
+        <Button
+            android:id="@+id/textView1"
+            android:text="Clear"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/button1"
+            android:text="History"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </TableRow>
+
+
+</TableLayout>
